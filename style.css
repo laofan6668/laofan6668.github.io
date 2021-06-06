@@ -151,7 +151,7 @@ a {
 }
 
 .content {
-  margin-bottom: 52px;
+  margin-bottom: 92px;
 }
 
 .content .hot1 {
@@ -349,15 +349,82 @@ a {
   color: #999;
   font-size: 12px;
 }
+.wanhui {
+  font-size: 22px;
+  color: tomato;
+  font-weight: 700;
+  height: 90px;
+  line-height: 90px;
+}
+
 .shopper ul {
   display: flex;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.shopper .ul2 {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.shopper .ul2 li {
+  width: 400px;
+  height: 452px;
+  /* overflow: hidden; */
+  margin-left: 50px;
+}
+.shopper .ul2 li img {
+  /* width: 100%; */
 }
 .shopper ul li {
-  flex: 1;
+  width: 200px;
+  height: 352px;
+  overflow: hidden;
   margin-left: 50px;
 }
 .shopper ul li img {
+  /* width: 100%; */
+}
+.shopper_wanhui {
+  height: 1540px;
+}
+.shopper_wanhui ul {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.shopper_wanhui ul li {
+  width: 400px;
+  height: 310px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.shopper_wanhui ul li img {
+  width: 100%;
+}
+.shopper_youwan ul {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.shopper_youwan .ul2 {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.shopper_youwan .ul2 li {
+  width: 600px;
+  height: 1210px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.shopper_youwan ul li {
+  width: 200px;
+  height: 240px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.shopper_youwan ul li img {
   width: 100%;
 }
 .zhifu {
