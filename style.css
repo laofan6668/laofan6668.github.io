@@ -293,6 +293,13 @@ a {
   margin-left: 32px;
   line-height: 24px;
 }
+.abo {
+  height: 500px;
+  background: url("./img/about.jpg") no-repeat;
+}
+.about2 {
+  color: #ccc;
+}
 .video {
   text-align: center;
 }
